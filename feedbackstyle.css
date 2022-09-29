@@ -1,0 +1,218 @@
+/* .logo11{
+    width: 20rem;
+    margin-left: -3rem;
+    margin-top: -3.1rem;
+} */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    margin: 5rem;
+    font-size: 1.8rem;
+    margin-right: 0rem;
+}
+
+.name1 {
+    padding-right: 3rem;
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.backgroundimg1 {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)), url(image/contact.jpg);
+    width: 99%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.heading1 {
+    color: white;
+    display: inline-block;
+    font-size: 3rem;
+}
+
+.para {
+    color: white;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content1 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.img1 img {
+    margin: 3rem;
+    margin-top: 2rem;
+    width: 31rem;
+    height: 28rem;
+}
+
+img.img2 {
+    border: none;
+}
+
+div.img1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+
+.imgimg {}
+
+.para2 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.form {
+    color: darkgoldenrod;
+    margin-inline-start: 28rem;
+    border: 2px solid;
+    display: inline-block;
+    width: 29rem;
+    height: 35rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    line-height: 2rem;
+}
+
+input {
+    padding: 0.6rem;
+    width: 26rem;
+    border: 1.5px solid
+}
+
+.input1 {
+    height: 9rem;
+    font-size: 1.5rem;
+}
+
+.btn11 {
+    width: 10rem;
+    height: 3rem;
+    border: 2px solid gray;
+    border-radius: 1rem;
+    margin-inline-start: 8rem;
+    color: darkgoldenrod;
+    font-size: 1.5rem;
+}
+
+.heading11 {
+    text-align: center;
+    color: gray;
+    font-size: 3rem;
+}
+
+.span11 {
+    color: red;
+}
+
+.box {
+    border: 2px solid black;
+    height: 23rem;
+    text-align: center;
+    padding: 2rem;
+    border: 1rem solid #fff;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 30%);
+    border-radius: .5rem;
+    flex: 1 1 30rem;
+    background: #333;
+    margin-top: 6rem;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 5rem;
+    margin-top: -6rem;
+}
+
+img.image11 {
+    height: 11rem;
+    width: 12rem;
+    border-radius: 50%;
+    border: 1rem solid #fff;
+    margin-top: -5rem;
+    object-fit: cover;
+    /* margin-left: 5rem; */
+}
+
+.stars {
+    color: rgb(247, 0, 0);
+}
+
+.names {
+    color: white;
+}
+
+.para11 {
+    color: white;
+    padding: 2rem;
+}
+
+.btn11:visited {
+    display: none;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 7rem;
+}
+
+.share {
+    margin: 2rem;
+    margin-left: 17rem;
+}
+
+.btn543 {
+    display: inline-block;
+    padding: .5rem 2rem;
+    border: .2rem solid red;
+    color: red;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: 1rem;
+}
+
+.span543 {
+    color: red;
+}
+
+h1.credit {
+    font-variant: all-small-caps;
+    padding: 2rem;
+    padding-left: 22rem;
+    color: white;
+}
+
+.btn543:hover {
+    background-color: red;
+    color: white;
+}
+
+.logo11 {
+    width: 20rem;
+    margin-left: -3rem;
+    margin-top: -3.1rem;
+}

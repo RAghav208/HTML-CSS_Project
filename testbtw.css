@@ -1,0 +1,332 @@
+/* section navbar */
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: center;
+    width: 360%;
+}
+
+div.logo {
+    padding: 0px;
+    margin: 0px;
+}
+
+img.logo {
+    width: 66%;
+}
+
+ul.option1 li a {
+    font-size: 150%;
+}
+
+ul.option1 li a:hover {
+    color: rgb(219, 163, 163);
+}
+
+ul.option1 li a:active {
+    color: yellow;
+}
+
+
+/* signin section */
+
+div.sign {
+    width: 350%;
+    padding-left: 2rem;
+}
+
+h1.heading {
+    font-size: 600%;
+}
+
+p.span111 {
+    font-size: 330%;
+}
+
+a.btn1 {
+    font-size: 100%;
+}
+
+
+/*  home section starts  */
+
+section#home {
+    flex-direction: column;
+    width: 415%;
+    flex-wrap: wrap;
+}
+
+h3.heading1 {
+    font-size: 400%;
+}
+
+p.para1 {
+    font-size: 271%;
+    padding: 2rem;
+}
+
+a.btn {
+    margin: 3rem;
+}
+
+a.btn:hover {
+    background-color: red;
+    color: whitesmoke;
+    border: 2px solid black;
+}
+
+#immage {
+    width: 26rem;
+}
+
+
+/* <!-- popularity section starts  --> */
+
+#popularity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 350%;
+    margin-bottom: 5rem;
+}
+
+h2.heading2 {
+    font-size: 5rem;
+}
+
+div.box1 {
+    width: 46%;
+    height: 35%;
+}
+
+img.image1 {
+    width: 68%;
+    height: 48%;
+    border-radius: 8.5%;
+}
+
+div.content1 h3 {
+    font-size: 3rem;
+    padding-bottom: 24px;
+}
+
+span.fa {
+    font-size: 300%;
+}
+
+.btn3 {
+    width: 60%;
+    font-size: 2.6rem;
+}
+
+
+/* section working */
+
+section#working {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    width: 387%;
+    margin-top: 20rem;
+}
+
+h2#heading3 {
+    font-size: 6rem;
+}
+
+span#spannnn {}
+
+div#box-container1 {
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#boox1 {
+    width: 41rem;
+    height: 22rem;
+}
+
+div#boox2 {
+    width: 41rem;
+    height: 22rem;
+}
+
+div#boox3 {
+    width: 41rem;
+    height: 22rem;
+}
+
+div#boox4 {
+    width: 41rem;
+    height: 22rem;
+}
+
+img.image2 {
+    width: 36%;
+    margin-top: -5%;
+}
+
+p#text {
+    font-size: 265%;
+}
+
+
+/* section gallary */
+
+section#gallary {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 435%;
+    justify-content: center;
+}
+
+h2#heading4 {
+    font-size: 430%;
+}
+
+div#box-container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+div.box3 {
+    width: 62%;
+    height: 0%;
+    border: 2rem solid;
+    border-color: beige;
+    padding: 4rem;
+    margin: 2rem
+}
+
+div#boxx3 {
+    width: 62%;
+    height: 47rem;
+    border: 2rem solid;
+    border-color: beige;
+    padding: 4rem;
+    margin: 2rem
+}
+
+div#boxx6 {
+    width: 62%;
+    height: 47rem;
+    border: 2rem solid;
+    border-color: beige;
+    padding: 4rem;
+    margin: 2rem
+}
+
+div#boxx9 {
+    width: 62%;
+    height: 47rem;
+    border: 2rem solid;
+    border-color: beige;
+    padding: 4rem;
+    margin: 2rem
+}
+
+div#boxx12 {
+    width: 62%;
+    height: 47rem;
+    border: 2rem solid;
+    border-color: beige;
+    padding: 4rem;
+    margin: 2rem
+}
+
+
+/* section order */
+
+section#order {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 423%;
+    justify-content: center;
+    align-items: center;
+}
+
+h2#heading5 {
+    font-size: 6rem;
+}
+
+div#box-container3 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+div#image321 img {
+    width: 108%;
+    height: 35rem;
+}
+
+.form1111 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+input {
+    width: 76%;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+#btn321 {
+    width: 32%;
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
+#btn321:hover {
+    background-color: red;
+    color: white;
+    width: 12rem;
+    border: 2px solid black;
+}
+
+
+/* section footer */
+
+section.footer {
+    background-color: black;
+    width: 427%;
+    height: 13rem;
+    padding-top: 2rem;
+    margin-top: 4rem;
+}
+
+h1.credit {
+    font-size: 2.5rem;
+}
+
+.btn543 {
+    width: 12rem;
+    font-size: 2.1rem;
+    padding: 1%;
+    color: red;
+}
+
+.btn543:hover {
+    margin: 1rem;
+    display: inline-block;
+    padding: .5rem 2rem;
+    border: .2rem solid white;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .container {
+            /*            display: inline-block;*/
+            text-align: center;
+            /* display: block; */
+            /* background-color: #e5e5e5; */
+            background-color: #5f585847;
+            margin: -5rem;
+            margin-left: 26rem;
+            width: 25rem;
+            border-radius: 5px;
+            border-radius: 5px;
+            /* opacity: 49%; */
+            color: white;
+        }
+        
+        .fa {
+            border: 3.5px solid darkblue;
+            color: white;
+            background: darkblue;
+            height: 1.3rem;
+            border-radius: 3px;
+            width: 13rem;
+        }
+        
+        #input1 {
+            height: 1rem;
+            height: 1.5rem;
+            /* line-height: 44px; */
+            width: 17rem;
+            padding: 3px;
+            margin: 5px;
+            border: 2px solid white;
+            color: gray;
+        }
+        
+        .btn11 {
+            margin: 1rem;
+            background: black;
+            color: white;
+            width: 15rem;
+            height: 2.4rem;
+            border: 5px solid black;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .link {
+            margin: 1rem;
+            color: #b5985a;
+        }
+        
+        .para2 {
+            margin-left: 6rem;
+        }
+        
+        .para {
+            font-size: 1.3rem;
+        }
+        
+        .home {
+            /*            margin-top:rem;*/
+            /*            margin-bottom: -55rem;
+            */
+            height: 20rem;
+            margin-left: -6rem;
+            margin-top: -6rem;
+        }
+        
+        .footer {
+            background-color: black;
+            margin-top: 7rem;
+        }
+        
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)), url(image/signup.jpg);
+            width: 98%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+        
+        .share {
+            margin: 2rem;
+            margin-left: 17rem;
+        }
+        
+        .btn543 {
+            display: inline-block;
+            padding: .5rem 2rem;
+            border: .2rem solid red;
+            color: red;
+            cursor: pointer;
+            font-size: 1.2rem;
+            border-radius: .5rem;
+            position: relative;
+            overflow: hidden;
+            z-index: 0;
+            margin-top: 1rem;
+        }
+        
+        .span543 {
+            color: red;
+        }
+        
+        h1.credit {
+            font-variant: all-small-caps;
+            padding: 2rem;
+            padding-left: 22rem;
+            color: white;
+        }
+        
+        .btn543:hover {
+            background-color: red;
+            color: white;
+        }
+        
+        .logo11 {
+            width: 20rem;
+            margin-left: -5rem;
+            margin-top: -4.1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="division">
+        <a href="test.html"> <img src="image/1.png" class="home"> </a>
+
+        <!-- <body> -->
+        <div class="container">
+
+
+            <h1 class="heading">Become a member at Food Wagon</h1>
+            <p class="para">Create an account and get access to our exclusive products. <br> Welcome to our team. </p> <br>
+            <br>
+            <div class="logo1">
+                <a href="#" class="fa fa-facebook"> &nbsp; Register with facebook</a>
+            </div>
+            or<br>
+
+            <input type="text" name="email" id="input1" placeholder="first Name"> <br>
+            <input type="text" name="password" id="input1" placeholder="Last Name"> <br>
+            <input type="date" name="Fname" id="input1" placeholder="date of birth"> <br>
+            <input type="email" name="Lname" id="input1" placeholder="Email"> <br>
+            <input type="password" name="date" id="input1" placeholder="***********"> <br>
+            <input type="text " id="input1" placeholder="Country"> <br>
+            <!-- <input type= "radio" id="input12" value="Male" >
+<input type= "radio" id="input12" value="Female" > -->
+            <p class="para1"><input type="checkbox">By creating an account you agree our </p>
+            <a href="#" class="link">terms and conditions</a> And
+            <a href="#" class="link">Privacy policy</a> <br>
+
+            <button class="btn11" onclick="myfunction()">
+                Create account</button>
+            <div style="display: flex;">
+
+                <p class="para2">Already a member ?</p>
+                <a href="login.html" class="link"> Sign-in</a>
+            </div>
+
+
+        </div>
+        <script>
+            function myfunction() {
+                alert('Sign-up Sucessful');
+                document.write('Sign-up Sucessful');
+            }
+        </script>
+    </div>
+    <footer>
+        <section class="footer">
+            <div class="share">
+                <a href="https://www.facebook.com/" class="btn543">facebook</a>
+                <a href="https://www.twitter.com" class="btn543">twitter</a>
+                <a href="https://www.instagram.com" class="btn543">instagram</a>
+                <a href="https://www.pinterest.com" class="btn543">pinterest</a>
+                <a href="https://www.linkedin.com" class="btn543">linkedin</a>
+            </div>
+            <h1 class="credit"> created by <span class="span543">Food Wagon and teams </span> | all rights reserved! </h1>
+
+        </section>
+    </footer>
+</body>
+
+</html>

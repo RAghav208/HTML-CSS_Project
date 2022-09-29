@@ -1,0 +1,113 @@
+.logo11 {
+    width: 15rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    margin: 5rem;
+    font-size: 1.8rem;
+    margin-right: 0rem;
+}
+
+.name1 {
+    padding-right: 3rem;
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.backgroundimg1 {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)), url(image/menu.jpg);
+    width: 99%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.b1 {
+    color: cadetblue;
+    font-size: larger;
+}
+
+.b2 {
+    color: cadetblue;
+    font-size: larger;
+}
+
+.menu1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin-left: 9rem;
+}
+
+.dinner {
+    margin-top: 4rem;
+}
+
+.breverages {
+    margin-top: 4rem;
+}
+
+.b3 {
+    color: burlywood;
+    font-size: xxx-large;
+}
+
+th {
+    padding-right: 11rem;
+}
+
+.footer {
+    background-color: black;
+}
+
+.share {
+    margin: 2rem;
+    margin-left: 17rem;
+}
+
+.btn543 {
+    display: inline-block;
+    padding: .5rem 2rem;
+    border: .2rem solid red;
+    color: red;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: 1rem;
+}
+
+.span543 {
+    color: red;
+}
+
+h1.credit {
+    font-variant: all-small-caps;
+    padding: 2rem;
+    padding-left: 22rem;
+    color: white;
+}
+
+.btn543:hover {
+    background-color: red;
+    color: white;
+}
+
+.logo11 {
+    width: 20rem;
+    margin-left: -3rem;
+    margin-top: -3.1rem;
+}
